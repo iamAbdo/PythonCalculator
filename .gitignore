@@ -1,0 +1,88 @@
+# .gitignore for Python Calculator Project
+
+# Python general
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+site-packages/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+build/  # PyInstaller build files
+dist/   # Compiled output directory
+*.spec  # Optional: if you want to ignore spec files
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env/
+.venv/
+venv*/
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.ropeproject
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite
+*.sql
+*.db
+
+# Local development
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Project specific (add your own patterns below)
+assets/  # If you want to ignore local assets (but probably shouldn't)
+tmp/
+temp/
+*.tmp
+*.temp
+
+# PyInstaller hook cache
+.hooks/
+
+# Debug files
+*.debug
+*.prof
