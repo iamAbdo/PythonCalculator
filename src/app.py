@@ -22,7 +22,7 @@ class CalculatorApp:
     def create_display(self):
         self.display = tk.Entry(
             self.master,
-            width=28,  # Adjusted to match button grid width
+            width=28, 
             font=cfg.DIMENSIONS['display_font'],
             justify='right',
             bd=5,

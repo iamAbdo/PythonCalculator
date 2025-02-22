@@ -2,7 +2,6 @@ import math
 
 def evaluate_expression(expression):
     try:
-        # Replace visual symbols with Python equivalents
         expression = expression.replace('π', 'math.pi').replace('e', 'math.e')
         result = eval(expression, {'__builtins__': None}, {
             'sin': math.sin,

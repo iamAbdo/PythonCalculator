@@ -16,7 +16,7 @@ COLORS = {
 DIMENSIONS = {
     'display_width': 30,
     'display_font': ('Arial', 16),
-    'button_width': 8,  # Increased width for better spacing
+    'button_width': 8,
     'button_height': 2,
     'num_pad_button_width': 17  # 0 button width (2 columns)
 }

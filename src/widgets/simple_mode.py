@@ -11,12 +11,10 @@ class SimpleModeFrame(tk.Frame):
         self.configure_layout()
 
     def configure_layout(self):
-        # Configure grid columns for consistent spacing
         for i in range(4):
             self.columnconfigure(i, weight=1, uniform='col')
         self.rowconfigure(4, weight=1)  # Add spacing at bottom
 
-    # Updated create_buttons method with spacing
     def create_buttons(self):
         buttons = [
             ('(', 0, 0), (')', 0, 1), ('C', 0, 2), ('/', 0, 3),
