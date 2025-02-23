@@ -9,7 +9,7 @@ class CalculatorApp:
         self.master = master
         self.master.title("Scientific Calculator")
         self.master.configure(bg=cfg.COLORS['background'])
-        self.master.resizable(False, False)
+        self.master.resizable(True, True)
         
         # Configure grid layout
         self.master.columnconfigure(0, weight=1)
