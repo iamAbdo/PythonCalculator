@@ -18,7 +18,7 @@ class Calculator:
         self.advanced_btn.pack(side=tk.LEFT, padx=2)
 
         # Create display
-        self.display = tk.Entry(master, width=30, font=('Arial', 16), justify='right', bd=5)
+        self.display = tk.Entry(master, width=30, font=('Arial', 16), justify='left', bd=5)
         self.display.grid(row=1, column=0, columnspan=5, padx=5, pady=5)
 
         # Create frames for different modes
