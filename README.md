@@ -2,7 +2,7 @@
 
 **A Python/Tkinter calculator project by Me - [iamAbdo](https://github.com/iamAbdo)**  
 *Feel free to use, modify, and distribute this code for any purpose!*
-*not that this code has many issues though*
+*note that this code has many issues though*
 
 ![Calculator Interface Preview](src/assets/calculator-preview.png)
 
